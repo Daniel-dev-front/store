@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+.git
+.env
+.env.local
+.env.*.local
+*.log
+*.lock
+pnpm-lock.yaml

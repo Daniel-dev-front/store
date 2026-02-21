@@ -1,0 +1,298 @@
+.new_Arrial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 2;
+    margin-top: 120px;
+
+    h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 4%;
+        color: #000;
+    }
+
+    .content_top {
+        display: flex;
+        flex-direction: column;
+
+
+        .top {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            h5 {
+                font-family: Poppins;
+                font-weight: 600;
+                font-style: SemiBold;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 0%;
+                color: #DB4444;
+            }
+
+            span {
+                width: 20px;
+                height: 40px;
+                border-radius: 4px;
+                background-color: #DB4444;
+            }
+        }
+    }
+
+    .content_bottom {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 50px;
+
+        .bottom_left {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+            width: 570px;
+            height: 600px;
+            border-radius: 4px;
+            background-color: #000;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: end;
+                padding: 20px;
+                position: absolute;
+                width: 272px;
+                height: 82px;
+                gap: 18px;
+
+                h2 {
+                    font-family: Inter;
+                    font-weight: 600;
+                    font-style: Semi Bold;
+                    font-size: 24px;
+                    line-height: 24px;
+                    letter-spacing: 3%;
+
+                    color: #fff;
+                }
+
+                p {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 14px;
+                    line-height: 21px;
+                    letter-spacing: 0%;
+                    color: #fafafa;
+                }
+
+                .btn_now {
+                    cursor: pointer;
+                    border: none;
+                    background: none;
+                    width: 81px;
+                    height: 24px;
+                    display: flex;
+                    flex-direction: column;
+
+                    p {
+
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #fafafa;
+                    }
+
+                    span {
+                        width: 100%;
+                        border: 1px solid white;
+
+                    }
+
+                }
+
+            }
+
+            img {
+                margin-right: -20px;
+                width: 590px;
+            }
+        }
+
+        .right_bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 600px;
+
+
+            .right_top {
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                width: 570px;
+                height: 284px;
+                border-radius: 4px;
+                background-color: #000;
+                padding: 20px;
+
+                .top_text {
+                    width: 355px;
+                    height: 122px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: start;
+
+                    h2 {
+                        font-family: Inter;
+                        font-weight: 600;
+                        font-style: Semi Bold;
+                        font-size: 24px;
+                        line-height: 24px;
+                        letter-spacing: 5%;
+                        color: #fafafa;
+                    }
+
+                    p {
+                        font-family: Poppins;
+                        font-weight: 400;
+                        font-style: Regular;
+                        font-size: 14px;
+                        line-height: 21px;
+                        letter-spacing: 0%;
+                        color: #fafafa;
+                    }
+
+                    .btn_now {
+                        cursor: pointer;
+                        border: none;
+                        background: none;
+                        width: 81px;
+                        height: 24px;
+                        display: flex;
+                        flex-direction: column;
+
+                        p {
+
+                            font-family: Poppins;
+                            font-weight: 500;
+                            font-style: Medium;
+                            font-size: 16px;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            color: #fafafa;
+                        }
+
+                        span {
+                            width: 100%;
+                            border: 1px solid white;
+
+                        }
+
+                    }
+                }
+
+                img {
+                    width: 290px;
+                    height: 270px;
+                    margin-right: -16px;
+                    margin-bottom: -16px;
+                    object-fit: cover;
+                }
+            }
+
+            .bottom_right {
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                width: 100%;
+
+                .card_img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 270px;
+                    height: 284px;
+                    border-radius: 4px;
+                    background-color: #000;
+
+
+                    .bottom_text {
+                        justify-content: space-between;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        position: absolute;
+                        width: 191px;
+                        height: 85px;
+                        margin-top: 160px;
+                        margin-left: -30px;
+
+                        h2 {
+                            font-family: Inter;
+                            font-weight: 600;
+                            font-style: Semi Bold;
+                            font-size: 24px;
+                            line-height: 24px;
+                            letter-spacing: 3%;
+                            color: #fafafa;
+                        }
+
+                        p {
+                            font-family: Poppins;
+                            font-weight: 400;
+                            font-style: Regular;
+                            font-size: 14px;
+                            line-height: 21px;
+                            letter-spacing: 0%;
+                            color: #fafafa;
+                        }
+
+                        .btn_now {
+                            cursor: pointer;
+                            border: none;
+                            background: none;
+                            width: 81px;
+                            height: 24px;
+                            display: flex;
+                            flex-direction: column;
+
+                            p {
+
+                                font-family: Poppins;
+                                font-weight: 500;
+                                font-style: Medium;
+                                font-size: 16px;
+                                line-height: 24px;
+                                letter-spacing: 0%;
+                                color: #fafafa;
+                            }
+
+                            span {
+                                width: 100%;
+                                border: 1px solid white;
+
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+.footer {
+    width: 1178px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 239px;
+
+    .footer_card {
+        width: 260px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+
+        h2 {
+            font-family: Inter;
+            font-weight: 600;
+            font-style: Bold;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 3%;
+            color: #fafafa;
+        }
+
+        p {
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: Medium;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0%;
+            color: #fafafa;
+        }
+
+        .inp {
+            width: 217px;
+            height: 48px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                position: absolute;
+                margin-right: -180px;
+            }
+
+            input {
+                padding-left: 10px;
+                background-color: #000;
+                width: 100%;
+                height: 100%;
+                font-family: Poppins;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                color: #fafafa;
+                border: 1px solid #fafafa;
+                padding-right: 35px;
+
+                &::placeholder {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                }
+            }
+        }
+    }
+
+    .app {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+
+        h2 {
+            font-family: Poppins;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0%;
+            color: #fafafa;
+        }
+
+        h3 {
+            font-family: Poppins;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0%;
+            color: gray;
+        }
+
+
+        .dow_apps {
+            display: flex;
+            align-items: center;
+            width: 198px;
+            justify-content: space-between;
+            margin-top: -20px;
+            margin-bottom: 20px;
+
+            img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .apps {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 84px;
+                width: 110px;
+
+                img {
+                    cursor: pointer;
+                    width: 110px;
+                    height: 40px;
+                }
+            }
+        }
+
+        .social {
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+            margin-top: 20px;
+        }
+    }
+
+
+
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+
+    width: 250px;
+
+    h2 {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Bold;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 3%;
+        color: #fafafa;
+    }
+
+    p {
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        color: #fafafa;
+    }
+
+    a {
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0%;
+        color: #fafafa;
+        text-decoration-line: none;
+    }
+
+}
+
+.fot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: gray;
+}

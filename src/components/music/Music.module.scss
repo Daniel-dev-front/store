@@ -1,0 +1,120 @@
+.music_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    margin-top: 120px;
+    padding: 30px;
+
+    .music_left {
+        width: 100%;
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        height: 400px;
+
+
+        h5 {
+            font-family: Poppins;
+            font-weight: 600;
+            font-style: SemiBold;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            color: #00FF66;
+        }
+
+        h2 {
+            font-family: Inter;
+            font-weight: 600;
+            font-style: Semi Bold;
+            font-size: 48px;
+            line-height: 80px;
+            letter-spacing: 4%;
+            color: #FAFAFA;
+        }
+
+        .time {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 340px;
+            height: 62px;
+            gap: 10px;
+            border: 1px solid #000;
+
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 72px;
+                height: 72px;
+                border-radius: 50px;
+                background-color: #fff;
+                font-family: Poppins;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: 0%;
+                color: #000;
+
+                p {
+                    font-family: Poppins;
+                    font-weight: 600;
+                    font-style: SemiBold;
+                    font-size: 18px;
+                    line-height: 20px;
+                    letter-spacing: 0%;
+                    color: #000;
+                }
+            }
+        }
+
+
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 171px;
+        height: 56px;
+        border-radius: 4px;
+        background-color: #00FF66;
+        border: none;
+
+        &:hover {
+            background-color: #DB4444;
+            transition: background 0.3s;
+        }
+
+        p {
+            font-family: Poppins;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            color: #FAFAFA;
+        }
+    }
+
+    .music_right {
+        width: 600px;
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 458px;
+            height: 330px;
+        }
+    }
+}
