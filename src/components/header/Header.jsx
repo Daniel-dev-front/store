@@ -1,6 +1,6 @@
 import React from "react";
 import scss from "./Header.module.scss";
-import { Navigate, NavLink, useNavigate } from "react-router-dom";
+import { Link, Navigate, NavLink, useNavigate } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
@@ -66,6 +66,7 @@ const Header = () => {
               <NavLink className={scss.nav} to="/signUp">
                 <h4>Sign Up</h4>
               </NavLink>
+
               {user && (
                 <p>
                   <div className={scss.adds}>

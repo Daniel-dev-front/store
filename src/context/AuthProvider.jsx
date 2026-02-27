@@ -13,7 +13,7 @@ const AuthContext = createContext();
 export const useAuth = () => useContext(AuthContext);
 
 const googleProvider = new GoogleAuthProvider();
-const ADMIN_EMAIL = "emirsaparbecav0701@gmail.com";
+const ADMIN_EMAIL = "dujsenbekovdaniel8@gmail.com";
 
 const initialState = {
   user: null,
